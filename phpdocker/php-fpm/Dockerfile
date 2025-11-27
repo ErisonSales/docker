@@ -1,5 +1,5 @@
 FROM phpdockerio/php:8.4-fpm
-WORKDIR "/application"
+WORKDIR "/var/www"
 
 RUN apt-get update \
     && apt-get -y --no-install-recommends install \
