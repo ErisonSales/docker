@@ -1,0 +1,4 @@
+docker exec php_bazar chmod -R 775 storage
+docker exec php_bazar chmod -R 775 bootstrap/cache
+docker exec php_bazar chown -R www-data:www-data storage
+docker exec php_bazar chown -R www-data:www-data bootstrap/cache
